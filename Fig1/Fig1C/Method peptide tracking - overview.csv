@@ -1,0 +1,50 @@
+Cell_Line,BioRep,Cartridge,Notes,Cell_Count,Lysis_Method,Lysis_Link,Lysis_Volume(mL),Lysate_Concentration(mg/mL),Total_BCA(mg),Protein_per_M_cells(ug),Filtration_Method,Filter_Step,Frozen_Fresh,Enrichment,Per_Cart_Load(mg),Cartridge_#,Cartridge_Notes,MS_Date,Effective injection(cell equiv.),MHC_Peptides,Peptides_per_250M,Proteins,MHC_TIC,TIC_per_250M,%_8to12,# NeoAg,# ERV,VIPs,Use,Species
+EMT6,1,Dd,,2.64E+08,Fractionation,20190329 - EMT6 cell lysis,3.54,2.7,45.0,170,Spin,Before_freezing,Frozen,,2.5,1,1 x Dd,20190424,2.64E+08,1120,1061,1,#REF!,#REF!,#REF!,,,Eif3b,,
+EMT6,1,Kd,,2.64E+08,Fractionation,20190329 - EMT6 cell lysis,3.54,2.7,45.0,170,Spin,Before_freezing,Frozen,,2.5,1,1 x Kd,20190424,2.64E+08,1017,,,,,,,,-,,
+EMT6,1,Ld,,2.64E+08,Fractionation,20190329 - EMT6 cell lysis,3.54,2.7,45.0,170,Spin,Before_freezing,Frozen,,2.5,1,1 x Ld,20190424,2.64E+08,899,,,,,,,,Eif3b,,
+EMT6,1,Mix,,2.64E+08,Fractionation,20190329 - EMT6 cell lysis,3.54,2.7,45.0,170,Spin,Before_freezing,Frozen,,2.5,3,Mix,20190424,2.64E+08,3036,,,,,,,,,Yes,Mouse
+EMT6,2,Dd,Actually KO but shouldn't be significantly different; clogging observed on enrichment,2.64E+08,Fractionation,20190506 - EMT6-R2 cell lysis,3.91,4.02,54.8,208,5mL,Before_freezing,Frozen,,2,1,1 x Dd,20190522,1.98E+08,968,1222,1,#REF!,#REF!,#REF!,,,Eif3b,,
+EMT6,2,Kd,Actually KO but shouldn't be significantly different; clogging observed on enrichment,2.64E+08,Fractionation,20190506 - EMT6-R2 cell lysis,3.91,4.02,54.8,208,5mL,Before_freezing,Frozen,,2,1,1 x Kd,20190522,1.98E+08,962,,,,,,,,-,,
+EMT6,2,Ld,Actually KO but shouldn't be significantly different; clogging observed on enrichment,2.64E+08,Fractionation,20190506 - EMT6-R2 cell lysis,3.91,4.02,54.8,208,5mL,Before_freezing,Frozen,,2,1,1 x Ld,20190522,1.98E+08,714,,,,,,,,Eif3b,,
+EMT6,2,Mix,Actually KO but shouldn't be significantly different; clogging observed on enrichment,2.64E+08,Fractionation,20190506 - EMT6-R2 cell lysis,3.91,4.02,54.8,208,5mL,Before_freezing,Frozen,,2,3,Mix,20190522,1.98E+08,2644,,,,,,,,,Yes,Mouse
+CT26,1,Dd,,2.64E+08,Fractionation,Lysis_assaymap_grand_method_v20190805,6.94,4.53,100.5,381,Spin,After_freezing,Frozen,,2,1,1 x Dd,20190823,6.60E+07,304,1152,1,#REF!,#REF!,#REF!,,,-,,
+CT26,1,Kd,,2.64E+08,Fractionation,Lysis_assaymap_grand_method_v20190805,6.94,4.53,100.5,381,Spin,After_freezing,Frozen,,2,1,1 x Kd,20190823,6.60E+07,119,,,,,,,,Mtch1,,
+CT26,1,Ld,,2.64E+08,Fractionation,Lysis_assaymap_grand_method_v20190805,6.94,4.53,100.5,381,Spin,After_freezing,Frozen,,2,1,1 x Ld,20190823,6.60E+07,149,,,,,,,,-,,
+CT26,1,Mix,,2.64E+08,Fractionation,Lysis_assaymap_grand_method_v20190805,6.94,4.53,100.5,381,Spin,After_freezing,Frozen,,2,3,Mix,20190823,6.60E+07,572,,,,,,,,,Yes,Mouse
+EL4,3,Db,Membrane protein concentration may be off,2.90E+08,Fractionation,20190214 - Dbaseline and SupB15,5.44,0.35,61.1,211,Vacuum,Before_freezing,Frozen,,0.35,4,4 x Db,20190227,7.25E+07,412,1421,290,9.12E+07,3.14E+08,80.7%,1,0,Ube2l6,,
+EL4,3,Db,Membrane protein concentration may be off,2.90E+08,Fractionation,20190214 - Dbaseline and SupB15,5.44,0.35,61.1,211,Vacuum,Before_freezing,Frozen,,0.35,4,4 x Db,20190227,1.45E+08,557,960,409,1.88E+08,3.24E+08,96.7%,1,0,Ube2l6,,
+EL4,2,Db,,5.10E+08,Fractionation,2018-04_ES5 - First AssayMAP MHC-I Peptidomes,8,?,?,?,Spin,Before_freezing,Frozen,,?,4,4 x Db,20190205,2.55E+08,1540,1510,1033,1.11E+10,1.09E+10,97.4%,2,0,Ndufs1;Ube2l6,,
+EL4,2,Kb,,5.10E+08,Fractionation,2018-04_ES5 - First AssayMAP MHC-I Peptidomes,8,?,?,?,Spin,Before_freezing,Frozen,,?,4,4 x Kb,20190205,2.55E+08,97,95,92,5.44E+07,5.33E+07,92.2%,0,0,-,,
+EL4,2,Mix,,5.10E+08,Fractionation,2018-04_ES5 - First AssayMAP MHC-I Peptidomes,8,?,?,?,Spin,Before_freezing,Frozen,,?,8,Mix,20190205,2.55E+08,1637,,,,,,,,Ndufs1;Ube2l6,Yes,Mouse
+EL4,1,Db,"First, successful EL4 super concentrated using only 1 cartridge each, commercial kit, spin, then freeeze",2.60E+08,Commercial,2018-04_ES5 - First AssayMAP MHC-I Peptidomes,0.8,?,?,?,Spin,Before_freezing,Frozen,,?,1,1 x Db,20181211,1.30E+08,1550,2981,1021,4.43E+09,8.53E+09,97.8%,1,1,Ndufs1;LGGVNPVAL,,
+EL4,1,Kb,"First, successful EL4 super concentrated using only 1 cartridge each, commercial kit, spin, then freeeze",2.60E+08,Commercial,2018-04_ES5 - First AssayMAP MHC-I Peptidomes,0.8,?,?,?,Spin,Before_freezing,Frozen,,?,1,1 x Kb,20181211,1.30E+08,391,752,283,8.50E+08,1.64E+09,98.0%,1,1,Tmem1;ATQQFQQL,,
+EL4,1,Mix,"First, successful EL4 super concentrated using only 1 cartridge each, commercial kit, spin, then freeeze",2.60E+08,Commercial,2018-04_ES5 - First AssayMAP MHC-I Peptidomes,0.8,?,?,?,Spin,Before_freezing,Frozen,,?,2,Mix,20181211,1.30E+08,1941,,,,,,,,Ndufs1;LGGVNPVAL;Tmem1;ATQQFQQL,Yes,Mouse
+EL4,4,Db,"Run 7, part of Len treatment",2.40E+08,Fractionation,20190417 - EL4+MC38 cell lysis,3.25,2.06,39.2,163,Spin,Before_freezing,Frozen,,2,1,1 x Db,20190424,1.20E+08,1447,3015,991,7.76E+09,1.62E+10,97.8%,1,0,Ndufs1,,
+EL4,4,Kb,"Run 7, part of Len treatment",2.40E+08,Fractionation,20190417 - EL4+MC38 cell lysis,3.25,2.06,39.2,163,Spin,Before_freezing,Frozen,,2,1,1 x Kb,20190424,1.20E+08,828,1725,622,2.12E+09,4.42E+09,96.2%,0,0,-,,
+EL4,4,Mix,"Run 7, part of Len treatment",2.40E+08,Fractionation,20190417 - EL4+MC38 cell lysis,3.25,2.06,39.2,163,Spin,Before_freezing,Frozen,,2,2,Mix,20190424,1.20E+08,2275,,,,,,,,Ndufs1,Yes,Mouse
+MC38,1,Db,First ever run,,Commercial,,,,,,,,,,,,,20181127,,257,#DIV/0!,204,8.36E+07,#DIV/0!,86.1%,0,0,-,,
+MC38,2,Db,,,,,,,,,,,,,,,,20190917,,293,#DIV/0!,211,3.48E+08,#DIV/0!,99.2%,0,1,ILGGVNPVAL,,
+MC38,2,Kb,,,,,,,,,,,,,,,,20190917,,69,#DIV/0!,24,1.58E+07,#DIV/0!,83.9%,0,0,-,,
+MC38,3,DbKb,,,,,,,,,,,,,,,,20200214,8.00E+07,910,2844,724,1.08E+10,3.38E+10,75.8%,,,,Yes,Mouse
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GRANTA,1,w6,First Agilent experiment,2.50E+08,Fractionation,20190702 - Standard lysis method,3.14,3.2,41.4,166,Spin,Before_freezing,Frozen,,?,1,1 x w6,20190805,3.13E+07,594,4752,469,6.86E+07,5.49E+08,99.8%,NA,NA,NA,,
+GRANTA,2,w6,First MS in lysis series (modern recordkeeping),2.50E+08,Bassani,LysisSeries - 02 - GRANTA Bassani Lyse Enrich Blot Stain,5,NA,NA,NA,Spin,NA,Fresh,LysisSeries - 02 - GRANTA Bassani Lyse Enrich Blot Stain,NA,4,4 x w6S,20191018,1.35E+08,4575,8496,2448,4.43E+09,8.23E+09,98.9%,NA,NA,NA,Yes,Human
+GRANTA,3,w6.1,A03,2.50E+08,Bassani,200127 - GRANTA+MC38 large-scale filtering,5,3.21,26.6,107,Vacuum,Before_freezing,Frozen,Clog14 - Big GRANTA and Big MC38 Replicates Frozen LargeNew Flow20,3.21,6,6 x w6L,20200304,6.37E+07,3125,12261,1661,1.51E+09,5.93E+09,98.2%,NA,NA,NA,Yes,Human
+GRANTA,3,w6.2,C03,2.50E+08,Bassani,200127 - GRANTA+MC38 large-scale filtering,5,3.21,26.6,107,Vacuum,Before_freezing,Frozen,Clog14 - Big GRANTA and Big MC38 Replicates Frozen LargeNew Flow20,3.21,6,6 x w6L,20200304,3.31E+07,2256,17023,1195,4.51E+08,3.40E+09,96.2%,NA,NA,NA,Yes,Human
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MM1S,1,w6,Apparently sparse records except for pellet collection,2.00E+08,Fractionation,20190824 - What happens to the MHC-I peptidome AND proteome of MM1S cells upon treatment with 0.1uM (100nM) or 10uM of lenalidomide for 24hrs?,,,,,Spin,Before_freezing,Frozen,,,,,190823,1.92E+08,1775,,,,,,,,NA,Yes,Human
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SupB15,1,w6,,2.80E+08,,[MASTER] Workflow,,,,,,,,[MASTER] Workflow,,4,4 x w6,190227,2.69E+08,6036,,,,,,,,NA,Yes,Human
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CD165_Chong,1,w6,https://www.mcponline.org/content/suppl/2017/12/14/TIR117.000383.DC1,1.00E+07,Table S9,,,,,,,,,,,,,,3.33E+06,1751,,,,,,,,,,
+CD165_Chong,1,w6,https://www.mcponline.org/content/suppl/2017/12/14/TIR117.000383.DC1,3.00E+07,Table S9,,,,,,,,,,,,,,1.00E+07,2731,,,,,,,,,,
+CD165_Chong,1,w6,https://www.mcponline.org/content/suppl/2017/12/14/TIR117.000383.DC1,5.00E+07,Table S9,,,,,,,,,,,,,,1.67E+07,3023,,,,,,,,,,
+CD165_Chong,1,w6,https://www.mcponline.org/content/suppl/2017/12/14/TIR117.000383.DC1,7.00E+07,Table S9,,,,,,,,,,,,,,2.33E+07,4112,,,,,,,,,,
+CD165_Chong,1,w6,https://www.mcponline.org/content/suppl/2017/12/14/TIR117.000383.DC1,1.00E+08,Table S9,,,,,,,,,,,,,,3.33E+07,5828,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EL4_Laumont,,acid,https://stm.sciencemag.org/content/10/470/eaau5516.short,2.50E+08,Figure 2,,,,,,,,,,,,,,2.50E+08,783,,,,,,,,,,
+CT26_Laumont,,acid,https://stm.sciencemag.org/content/10/470/eaau5516.short,2.50E+08,Figure 2,,,,,,,,,,,,,,2.50E+08,1875,,,,,,,,,,

@@ -34,12 +34,12 @@ mutate(log10=log(TIC,base=10))
       
 # Filter dataframe for Neoantigens
 clean <- function(df) {
-  df %>%
-    filter(str_detect(Accession,"NEO_")) %>%
-    filter(!str_detect(Accession,"#DECOY")) %>%
-    filter(!str_detect(Accession,"sp")) %>%
-    filter(!str_detect(Accession,"tr")) %>%
-    filter(Area > 0)
+df %>%
+filter(str_detect(Accession,"NEO_")) %>%
+filter(!str_detect(Accession,"#DECOY")) %>%
+filter(!str_detect(Accession,"sp")) %>%
+filter(!str_detect(Accession,"tr")) %>%
+filter(Area > 0)
 }
 
 df0_c <- clean(df0)
@@ -63,7 +63,7 @@ length(unique(df1.5_c$Accession))
 )
 
 df_ox2 <- df_ox %>%
-  mutate(neo_count)
+mutate(neo_count)
 
 # Plot
 p2 <- ggplot(

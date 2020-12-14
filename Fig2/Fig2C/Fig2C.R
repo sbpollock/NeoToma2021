@@ -30,7 +30,7 @@ sum(df1.5$Area)
 )
 
 df_ox <- data.frame(Ox_percent,TIC) %>% 
-  mutate(log10=log(TIC,base=10))
+mutate(log10=log(TIC,base=10))
       
 # Filter dataframe for Neoantigens
 clean <- function(df) {
@@ -66,26 +66,24 @@ df_ox2 <- df_ox %>%
   mutate(neo_count)
 
 # Plot
-p2 <- ggplot(df_ox2,
-             aes(x=Ox_percent,y=neo_count,fill=Ox_percent))+
-      geom_col()+
-      geom_text(label=neo_count,nudge_y = 7,size=6)+
-      coord_cartesian(ylim=c(0, 223))+
-      scale_fill_hue(h=c(90,0),c=75)+
-      ylab("Neoantigens detected")+
-      xlab("Treatment Condition (% Oxidant)")+
-      #ggtitle("Neoantigen count with increasing oxidant","Out of 223 neoantigens")+
-      labs(fill="% Oxidant")+
-      theme(
+p2 <- ggplot(
+df_ox2,
+aes(x=Ox_percent,y=neo_count,fill=Ox_percent))+
+geom_col()+
+geom_text(label=neo_count,nudge_y = 7,size=6)+
+coord_cartesian(ylim=c(0, 223))+
+scale_fill_hue(h=c(90,0),c=75)+
+ylab("Neoantigens detected")+
+xlab("Treatment Condition (% Oxidant)")+
+labs(fill="% Oxidant")+
+theme(
 axis.text = element_text(size=18),
 axis.title.x = element_text(size=18),
 axis.title.y = element_text(size=18),
 axis.text.x = element_text(angle=45,hjust=1),
-legend.position = "none"
-)
+legend.position = "none")
 
 # Save image
 ggsave(filename="Fig2C.png",
 plot=p2,
-width = 5, height = 5
-)
+width = 5, height = 5)

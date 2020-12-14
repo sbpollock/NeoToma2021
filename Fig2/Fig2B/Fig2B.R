@@ -1,20 +1,20 @@
-# Load libraries
+# Load packages
 library(tidyverse)
 library(googlesheets4)
 library(reshape2)
 
-# Import sheets
+# Import data
 url <- "https://docs.google.com/spreadsheets/d/1CUggPwOFysCPVGKmF4AdluJ2BYQpSLjMSf-Ou-QGI8A/edit#gid=1191321520"
 sht_desalt <- read_sheet(url,sheet="data - desalt") %>% mutate("type"="desalt")
 sht_TMT <- read_sheet(url,sheet="data - TMT") %>% mutate("type"="TMT")
 sht_RAT <- read_sheet(url,sheet="data - RAT") %>% mutate("type"="RAT")
 
-# Rename area column so I can rbind
+# Rename Area columns to make consistent
 colnames(sht_desalt)[8] <- "Area"
 colnames(sht_TMT)[8] <- "Area"
 colnames(sht_RAT)[8] <- "Area"
 
-# Remove Spec column so I can rbind
+# Remove Spec column to allow rbind
 sht_desalt <- sht_desalt[,-13]
 sht_TMT <- sht_TMT[,-13]
 sht_RAT <- sht_RAT[,-13]
@@ -60,7 +60,7 @@ df_e <- data.frame("treatment"=as.factor(treatment),neo_count)
 df_e$treatment <- fct_relevel(df_e$treatment,c("Desalt","TMT","RAT"))
 ```
 
-# Make plot
+# Plot
 p_count <- ggplot(df_e,aes(x=treatment,y=neo_count,fill=treatment)) +
 geom_col()+
 geom_text(label=neo_count, nudge_y = 7, size=6)+
@@ -77,6 +77,7 @@ axis.title.x = element_blank(),
 legend.position = "none"
 )
 
+# Save image
 ggsave(plot=p_count,
 filename="/Volumes/RLadies/Manuscripts/2020_MCP/Figures/Fig2/Fig2B1.png",
 width = 2, height = 5)

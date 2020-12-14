@@ -1,8 +1,8 @@
-# Load packages and set working directory
+# Load packages
 library(tidyverse)
 library(rstudioapi)
 current_path <- getActiveDocumentContext()$path 
-setwd(dirname(current_path ))
+setwd(dirname(current_path))
 
 # Import data
 sht <- read.csv("data_reuse.csv") %>% 

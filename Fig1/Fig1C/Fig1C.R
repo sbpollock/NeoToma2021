@@ -1,11 +1,11 @@
 # Load packages and set working directory
 library(tidyverse)
 library(rstudioapi)
-current_path <- getActiveDocumentContext()$path 
-setwd(dirname(current_path ))
+#current_path <- getActiveDocumentContext()$path 
+#setwd(dirname(current_path ))
 
 # Import data
-sht <- read.csv("data_peptide_counts.csv")
+sht <- read.csv("./data_peptide_counts.csv")
 sht2 <- sht %>% select("Peptide_Count"=MHC_Peptides,Cell_Line,Species,"Cell_Count"=Cell_Equivalents)
 
 sht2$Peptide_Count <- as.numeric(sht2$Peptide_Count)

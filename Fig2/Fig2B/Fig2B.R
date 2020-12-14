@@ -72,8 +72,7 @@ axis.text = element_text(size=16),
 axis.text.x = element_text(angle=45,hjust = 1),
 axis.title = element_text(size=18),
 axis.title.x = element_blank(),
-legend.position = "none"
-)
+legend.position = "none")
 
 # Save image
 ggsave(plot=p_count,

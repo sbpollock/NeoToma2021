@@ -1,4 +1,4 @@
-# Load packages and set working directory
+# Load packages
 library(tidyverse)
 
 # Import data

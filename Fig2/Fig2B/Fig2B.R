@@ -79,5 +79,5 @@ legend.position = "none"
 
 # Save image
 ggsave(plot=p_count,
-filename="/Volumes/RLadies/Manuscripts/2020_MCP/Figures/Fig2/Fig2B1.png",
+filename="./Fig2B.png",
 width = 2, height = 5)

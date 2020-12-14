@@ -4,10 +4,9 @@ library(googlesheets4)
 library(reshape2)
 
 # Import data
-url <- "https://docs.google.com/spreadsheets/d/1CUggPwOFysCPVGKmF4AdluJ2BYQpSLjMSf-Ou-QGI8A/edit#gid=1191321520"
-sht_desalt <- read_sheet(url,sheet="data - desalt") %>% mutate("type"="desalt")
-sht_TMT <- read_sheet(url,sheet="data - TMT") %>% mutate("type"="TMT")
-sht_RAT <- read_sheet(url,sheet="data - RAT") %>% mutate("type"="RAT")
+sht_desalt <- read.csv("./desalt.csv") %>% mutate("type"="desalt")
+sht_TMT <- read.csv("./TMT.csv") %>% mutate("type"="TMT")
+sht_RAT <- read.csv("./RAT.csv") %>% mutate("type"="RAT")
 
 # Rename Area columns to make consistent
 colnames(sht_desalt)[8] <- "Area"

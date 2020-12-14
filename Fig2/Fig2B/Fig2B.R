@@ -58,7 +58,6 @@ lst <- list(ds_n,tmt_n,rat_n)
 neo_count <- unlist(map(lst,nrow))
 df_e <- data.frame("treatment"=as.factor(treatment),neo_count)
 df_e$treatment <- fct_relevel(df_e$treatment,c("Desalt","TMT","RAT"))
-```
 
 # Plot
 p_count <- ggplot(df_e,aes(x=treatment,y=neo_count,fill=treatment)) +
@@ -79,5 +78,5 @@ legend.position = "none"
 
 # Save image
 ggsave(plot=p_count,
-filename="./Fig2B.png",
+filename="Fig2B.png",
 width = 2, height = 5)

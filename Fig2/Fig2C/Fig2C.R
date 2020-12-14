@@ -4,8 +4,7 @@ library(googlesheets4)
 library(reshape2)
 
 # Import data
-url <- "https://docs.google.com/spreadsheets/d/13jsvrMXq92MuOacocJ6-U-AHsNqviOX6YCE5MA14v1c/edit#gid=412290502"
-sheet <- read_sheet(url,sheet="data - varOx")
+sheet <- read.csv("./oxidation.csv")
 
 # Separate TIC by Ox %
 Ox_percent <- as.factor(c(0,0.01,0.05,0.1,0.25,0.5,1,1.5))

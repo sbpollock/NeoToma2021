@@ -3,40 +3,41 @@ library(tidyverse)
 library(googlesheets4)
 library(reshape2)
 
-# Import data
-url <- "https://docs.google.com/spreadsheets/d/1Szq9Am0pg4orMjy0Ig23TzGS50emVHk-q7jsJzUSI_4/edit#gid=412290502"
+###########
+### MS2 ###
+###########
 
-sht <- read_sheet(url,sheet = "data - MS2") 
+# Import MS2 data
+sht <- read.csv("./ms2.csv") 
 
-# Clean data
+# Clean MS2 data
 shtc <- sht %>% 
-  select("fmol"=concentration,
-         Peptide,
-         "Protein"=`Protein Accession`,
-         "126"=`Intensity TMT6-126`,
-         "127"=`Intensity TMT6-127`,
-         "128"=`Intensity TMT6-128`,
-         "129"=`Intensity TMT6-129`,
-         "130"=`Intensity TMT6-130`,
-         "131"=`Intensity TMT6-131`) %>% 
-  filter(str_detect(Protein,"NEO_")) %>%
-    filter(!str_detect(Protein,"#DECOY")) %>%
-    filter(!str_detect(Protein,"sp")) %>%
-    filter(!str_detect(Protein,"tr")) %>%
-  mutate("sum"=rowSums(.[4:9])) %>% 
+select("fmol"=concentration,
+Peptide,
+"Protein"=`Protein Accession`,
+"126"=`Intensity TMT6-126`,
+"127"=`Intensity TMT6-127`,
+"128"=`Intensity TMT6-128`,
+"129"=`Intensity TMT6-129`,
+"131"=`Intensity TMT6-131`) %>% 
+filter(str_detect(Protein,"NEO_")) %>%
+filter(!str_detect(Protein,"#DECOY")) %>%
+filter(!str_detect(Protein,"sp")) %>%
+filter(!str_detect(Protein,"tr")) %>%
+mutate("sum"=rowSums(.[4:9])) %>% 
 group_by(fmol,Protein) %>% # Same when smushed
 top_n(1,sum)
   
-# Add CV (uncorrected)
+# Add MS2 CV (uncorrected)
 SD <- apply(shtc[,4:9],1,sd)
 MN <- apply(shtc[,4:9],1,mean)
 CV <- (SD/MN)*100
 shtc2 <- as.data.frame(cbind(shtc,"CV"=CV))
 shtc3 <- shtc2 %>%
-  filter_at(vars('126':'131'),all_vars((.) != 0)) %>% 
-  filter(CV<100) %>% 
-  add_row(fmol=0.1) %>%
-  add_row(fmol=0.01) %>% 
+filter_at(vars('126':'131'),all_vars((.) != 0)) %>% 
+filter(CV<100) %>% 
+add_row(fmol=0.1) %>%
+add_row(fmol=0.01) %>% 
 add_row(fmol=0.001) 
 
 # Order points from left to right using bins by level, then CV
@@ -75,53 +76,37 @@ shtc3$Protein <- fct_relevel(shtc3$Protein,prot_order)
 # Name variable for later plotting
 sht_MS2 <- shtc3
 
+###############
+### TOMAHAQ ###
+###############
 
+# Import TOMAHAQ data
+sht1 <- read.csv("./toma1.csv")
+sht2 <- read.csv("./toma2.csv")
+sht3 <- read.csv("./toma3.csv")
 
-
-
-# Work up TOMAHAQ data
-library(tidyverse)
-library(googlesheets4)
-library(reshape2)
-
-url <- "https://docs.google.com/spreadsheets/d/1Szq9Am0pg4orMjy0Ig23TzGS50emVHk-q7jsJzUSI_4/edit#gid=412290502"
-
-sht1 <- read_sheet(url,sheet = "data - 100") 
-sht2 <- read_sheet(url,sheet = "data - 200") 
-sht3 <- read_sheet(url,sheet = "data - 300") 
-
-# Combine data
+# Combine TOMAHAQ data
 sht <- rbind(sht1,sht2,sht3) %>% 
-  select("fmol"=concentration,
-         Peptide,
-         Protein,
-         "126"=MS3Quant1,
-         "127"=MS3Quant2,
-         "128"=MS3Quant5,
-         "129"=MS3Quant6,
-         "130"=MS3Quant9,
-         "131"=MS3Quant10) %>% 
-  mutate("Signal"=rowSums(.[4:9])) %>% 
-  group_by(fmol,Peptide,Protein) %>% # Same when smushed
-  summarize_each(list(sum)) %>% 
-  filter(Signal>90)
-  #filter_at(vars('126':'131'),all_vars((.) >= 10))
+select("fmol"=concentration,
+Peptide,
+Protein,
+"126"=MS3Quant1,
+"127"=MS3Quant2,
+"128"=MS3Quant5,
+"129"=MS3Quant6,
+"130"=MS3Quant9,
+"131"=MS3Quant10) %>% 
+mutate("Signal"=rowSums(.[4:9])) %>% 
+group_by(fmol,Peptide,Protein) %>% # Same when smushed
+summarize_each(list(sum)) %>% 
+filter(Signal>90)
 
-# Count targets
-test <- sht %>% filter(fmol==0.001)
-namez <- vector()
-for (a in 1:nrow(test)){
-  namez <- c(namez,strsplit(test$Protein[a],"_")[[1]][1])
-}
-length(unique(namez))
-
-# Add CV
+# Add TOMAHAQ CV
 SD <- apply(sht[,4:9],1,sd)
 MN <- apply(sht[,4:9],1,mean)
 CV <- (SD/MN)*100
 sht2 <- cbind(sht,"CV"=CV) %>% 
 filter(CV<100) 
-
 
 # Order points from left to right using bins by level, then CV
 
@@ -156,29 +141,6 @@ prot_order <- unique(c(l1p,ni2,ni3,ni4,ni5,ni6))
 sht2$Protein <- as.factor(sht2$Protein)
 sht2$Protein <- fct_relevel(sht2$Protein,prot_order)
 
-# Plot
-p_toma <- ggplot(sht2,aes(x=Protein,y=as.factor(fmol),size=Signal,color=CV))+
-  geom_point()+
-  scale_size_area(max_size=10,
-                  breaks=c(1e2,1e3,1e4,1e5,1e6))+
-  scale_color_gradient2(low="blue",
-                        mid="grey",
-                        high="red",
-                        midpoint = 20)+
-  ylab("fmol peptide")+
-  xlab("Proteins")+
-  labs(color="CV %",title="TOMAHAQ")+
-  theme(axis.text.x = element_blank(),
-        axis.ticks.x = element_blank(),
-        axis.title = element_text(size=14),
-        axis.text = element_text(size=14),
-        legend.text = element_text(size=14),
-        legend.title = element_text(size=14))
-
-ggsave(filename="/Volumes/RLadies/Manuscript_AssayMAP/Figures/Fig3/FigS3_TOMA_SN90.png",
-       plot=p_toma,
-       width = 12, height = 4)
-
 # Split out names and filter table so that it's comparable to MS2
 sht_TOMA <- sht2 %>% 
   mutate("simple"=str_split(Protein,"_")[[1]][1]) %>% 
@@ -188,11 +150,9 @@ sht_TOMA <- sht2 %>%
   filter(Protein!="ITFHFTPV") %>% 
   filter(Protein!="ITFHFTPVL")
 
-
-
-
-
-
+############
+### PLOT ###
+############
 
 # Make detected df
 Concentration <- rep(c("100","10","1","0.1","0.01","0.001"),2)
@@ -230,6 +190,6 @@ legend.text = element_text(size=14)
 )+
 scale_y_continuous(limits=c(0,165))
 
-ggsave(filename="/Volumes/RLadies/Manuscripts/Manuscript_2020_MCP/Figures/Fig3/Fig3C.png",
+ggsave(filename="Fig3C.png",
        plot=p_count,
-       width = 6, height = 3, units = "in")
+       width = 6, height = 3)

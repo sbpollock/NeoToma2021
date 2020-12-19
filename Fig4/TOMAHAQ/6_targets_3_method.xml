@@ -1,0 +1,3813 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MethodModifications xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1" Model="OrbitrapFusion" Family="Calcium" Type="SL">
+  <Modification Order="1">
+    <Experiment ExperimentIndex="0">
+      <CopyAndAppendScanNode>
+        <SourceNodePosition>0</SourceNodePosition>
+      </CopyAndAppendScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="2">
+    <Experiment ExperimentIndex="0">
+      <CopyAndAppendScanNode>
+        <SourceNodePosition>1</SourceNodePosition>
+      </CopyAndAppendScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="3">
+    <Experiment ExperimentIndex="0">
+      <CopyAndAppendScanNode>
+        <SourceNodePosition>2</SourceNodePosition>
+      </CopyAndAppendScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="4">
+    <Experiment ExperimentIndex="0">
+      <CopyAndAppendScanNode>
+        <SourceNodePosition>3</SourceNodePosition>
+      </CopyAndAppendScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="5">
+    <Experiment ExperimentIndex="0">
+      <CopyAndAppendScanNode>
+        <SourceNodePosition>4</SourceNodePosition>
+      </CopyAndAppendScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="6">
+    <Experiment ExperimentIndex="0">
+      <CopyAndAppendScanNode>
+        <SourceNodePosition>5</SourceNodePosition>
+      </CopyAndAppendScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="7">
+    <Experiment ExperimentIndex="0">
+      <CopyAndAppendScanNode>
+        <SourceNodePosition>6</SourceNodePosition>
+      </CopyAndAppendScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="8">
+    <Experiment ExperimentIndex="0">
+      <CopyAndAppendScanNode>
+        <SourceNodePosition>7</SourceNodePosition>
+      </CopyAndAppendScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="9">
+    <Experiment ExperimentIndex="0">
+      <CopyAndAppendScanNode>
+        <SourceNodePosition>8</SourceNodePosition>
+      </CopyAndAppendScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="10">
+    <Experiment ExperimentIndex="0">
+      <CopyAndAppendScanNode>
+        <SourceNodePosition>9</SourceNodePosition>
+      </CopyAndAppendScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="11">
+    <Experiment ExperimentIndex="0">
+      <CopyAndAppendScanNode>
+        <SourceNodePosition>10</SourceNodePosition>
+      </CopyAndAppendScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="12">
+    <Experiment ExperimentIndex="0">
+      <CopyAndAppendScanNode>
+        <SourceNodePosition>11</SourceNodePosition>
+      </CopyAndAppendScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="13">
+    <Experiment ExperimentIndex="0">
+      <CopyAndAppendScanNode>
+        <SourceNodePosition>12</SourceNodePosition>
+      </CopyAndAppendScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="14">
+    <Experiment ExperimentIndex="0">
+      <CopyAndAppendScanNode>
+        <SourceNodePosition>13</SourceNodePosition>
+      </CopyAndAppendScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="15">
+    <Experiment ExperimentIndex="0">
+      <CopyAndAppendScanNode>
+        <SourceNodePosition>14</SourceNodePosition>
+      </CopyAndAppendScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="16">
+    <Experiment ExperimentIndex="0">
+      <CopyAndAppendScanNode>
+        <SourceNodePosition>15</SourceNodePosition>
+      </CopyAndAppendScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="17">
+    <Experiment ExperimentIndex="0">
+      <CopyAndAppendScanNode>
+        <SourceNodePosition>16</SourceNodePosition>
+      </CopyAndAppendScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="18">
+    <Experiment ExperimentIndex="0">
+      <CopyAndAppendScanNode>
+        <SourceNodePosition>17</SourceNodePosition>
+      </CopyAndAppendScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="19">
+    <Experiment ExperimentIndex="0">
+      <CopyAndAppendScanNode>
+        <SourceNodePosition>18</SourceNodePosition>
+      </CopyAndAppendScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="20">
+    <Experiment ExperimentIndex="0">
+      <CopyAndAppendScanNode>
+        <SourceNodePosition>19</SourceNodePosition>
+      </CopyAndAppendScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="21">
+    <Experiment ExperimentIndex="0">
+      <CopyAndAppendScanNode>
+        <SourceNodePosition>20</SourceNodePosition>
+      </CopyAndAppendScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="22">
+    <Experiment ExperimentIndex="0">
+      <CopyAndAppendScanNode>
+        <SourceNodePosition>21</SourceNodePosition>
+      </CopyAndAppendScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="23">
+    <Experiment ExperimentIndex="0">
+      <CopyAndAppendScanNode>
+        <SourceNodePosition>22</SourceNodePosition>
+      </CopyAndAppendScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="24">
+    <Experiment ExperimentIndex="0">
+      <CopyAndAppendScanNode>
+        <SourceNodePosition>23</SourceNodePosition>
+      </CopyAndAppendScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="25">
+    <Experiment ExperimentIndex="0">
+      <CopyAndAppendScanNode>
+        <SourceNodePosition>24</SourceNodePosition>
+      </CopyAndAppendScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="26">
+    <Experiment ExperimentIndex="0">
+      <CopyAndAppendScanNode>
+        <SourceNodePosition>25</SourceNodePosition>
+      </CopyAndAppendScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="27">
+    <Experiment ExperimentIndex="0">
+      <CopyAndAppendScanNode>
+        <SourceNodePosition>26</SourceNodePosition>
+      </CopyAndAppendScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="28">
+    <Experiment ExperimentIndex="0">
+      <CopyAndAppendScanNode>
+        <SourceNodePosition>27</SourceNodePosition>
+      </CopyAndAppendScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="29">
+    <Experiment ExperimentIndex="0">
+      <CopyAndAppendScanNode>
+        <SourceNodePosition>28</SourceNodePosition>
+      </CopyAndAppendScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="30">
+    <Experiment ExperimentIndex="0">
+      <CopyAndAppendScanNode>
+        <SourceNodePosition>29</SourceNodePosition>
+      </CopyAndAppendScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="31">
+    <Experiment ExperimentIndex="0">
+      <CopyAndAppendScanNode>
+        <SourceNodePosition>30</SourceNodePosition>
+      </CopyAndAppendScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="32">
+    <Experiment ExperimentIndex="0">
+      <CopyAndAppendScanNode>
+        <SourceNodePosition>31</SourceNodePosition>
+      </CopyAndAppendScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="33">
+    <Experiment ExperimentIndex="0">
+      <ScanNode>
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <ScanParameters>
+          <IsolationOffset>-3.00691900000004</IsolationOffset>
+        </ScanParameters>
+      </ScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="34">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="true">
+          <MassListRecord>
+            <MOverZ>535.8382</MOverZ>
+            <Z>2</Z>
+            <StartTime>32.84</StartTime>
+            <EndTime>42.84</EndTime>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="35">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassTrigger" Above="false">
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>826.4905</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>739.4584</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>939.5745</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>665.3869</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>406.2896</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>552.3028</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>576.3951</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>495.2813</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>764.4553</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="36">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>820.4766</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>733.4446</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>933.5607</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>513.3598</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>400.2757</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>570.3813</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="37">
+    <Experiment ExperimentIndex="0">
+      <ScanNode>
+        <SourceNodePosition>1</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <ScanParameters>
+          <IsolationOffset>-3.00691899999993</IsolationOffset>
+        </ScanParameters>
+      </ScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="38">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>1</SourceNodePosition>
+        <MassList StartEndTime="true">
+          <MassListRecord>
+            <MOverZ>555.8231</MOverZ>
+            <Z>2</Z>
+            <StartTime>26.84</StartTime>
+            <EndTime>36.84</EndTime>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="39">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassTrigger" Above="false">
+        <SourceNodePosition>1</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>811.4544</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>697.4115</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>414.2347</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>689.3617</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>422.2845</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>979.5443</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>493.3216</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>618.3246</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>788.4301</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>561.3031</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="40">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>1</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>805.4406</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>691.3976</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>416.2707</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>973.5304</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>487.3078</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="41">
+    <Experiment ExperimentIndex="0">
+      <ScanNode>
+        <SourceNodePosition>2</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <ScanParameters>
+          <IsolationOffset>-3.00691899999993</IsolationOffset>
+        </ScanParameters>
+      </ScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="42">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>2</SourceNodePosition>
+        <MassList StartEndTime="true">
+          <MassListRecord>
+            <MOverZ>556.3263</MOverZ>
+            <Z>2</Z>
+            <StartTime>23.58</StartTime>
+            <EndTime>33.58</EndTime>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="43">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassTrigger" Above="false">
+        <SourceNodePosition>2</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>786.4704</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>843.4919</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>673.3863</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>439.2663</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>437.259</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>574.3179</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>675.3937</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="44">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>2</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>780.4566</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>837.478</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>667.3725</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>431.2452</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>568.3041</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="45">
+    <Experiment ExperimentIndex="0">
+      <ScanNode>
+        <SourceNodePosition>3</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <ScanParameters>
+          <IsolationOffset>-2.00461266666669</IsolationOffset>
+        </ScanParameters>
+      </ScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="46">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>3</SourceNodePosition>
+        <MassList StartEndTime="true">
+          <MassListRecord>
+            <MOverZ>385.5674</MOverZ>
+            <Z>3</Z>
+            <StartTime>13.05</StartTime>
+            <EndTime>23.05</EndTime>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="47">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassTrigger" Above="false">
+        <SourceNodePosition>3</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>508.299</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>422.2845</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>470.7816</MOverZ>
+            <Z>2</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>647.3958</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>636.3576</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>410.7248</MOverZ>
+            <Z>2</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>519.3373</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>733.4104</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>784.4547</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>820.4424</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="48">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>3</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>416.2707</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>467.7746</MOverZ>
+            <Z>2</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>641.382</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>513.3234</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>778.4409</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="49">
+    <Experiment ExperimentIndex="0">
+      <ScanNode>
+        <SourceNodePosition>4</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <ScanParameters>
+          <IsolationOffset>-3.00691899999993</IsolationOffset>
+        </ScanParameters>
+      </ScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="50">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>4</SourceNodePosition>
+        <MassList StartEndTime="true">
+          <MassListRecord>
+            <MOverZ>584.8335</MOverZ>
+            <Z>2</Z>
+            <StartTime>35.32</StartTime>
+            <EndTime>45.32</EndTime>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="51">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassTrigger" Above="false">
+        <SourceNodePosition>4</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>679.4009</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>490.266</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>923.5221</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>589.3344</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>980.5436</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1037.565</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>776.4537</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>775.4137</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="52">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>4</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>673.3871</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>917.5083</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>974.5297</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1031.5512</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>770.4398</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="53">
+    <Experiment ExperimentIndex="0">
+      <ScanNode>
+        <SourceNodePosition>5</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <ScanParameters>
+          <IsolationOffset>-3.00691899999993</IsolationOffset>
+        </ScanParameters>
+      </ScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="54">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>5</SourceNodePosition>
+        <MassList StartEndTime="true">
+          <MassListRecord>
+            <MOverZ>590.8622</MOverZ>
+            <Z>2</Z>
+            <StartTime>32.84</StartTime>
+            <EndTime>42.84</EndTime>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="55">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassTrigger" Above="false">
+        <SourceNodePosition>5</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>952.5698</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>865.5377</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>737.4792</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>444.2453</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>624.3951</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>704.3978</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>477.3267</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>557.3293</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>832.4563</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="56">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>5</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>946.5559</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>859.5239</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>731.4653</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>618.3813</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>471.3128</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="57">
+    <Experiment ExperimentIndex="0">
+      <ScanNode>
+        <SourceNodePosition>6</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <ScanParameters>
+          <IsolationOffset>-3.00691900000004</IsolationOffset>
+        </ScanParameters>
+      </ScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="58">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>6</SourceNodePosition>
+        <MassList StartEndTime="true">
+          <MassListRecord>
+            <MOverZ>603.8862</MOverZ>
+            <Z>2</Z>
+            <StartTime>28.79</StartTime>
+            <EndTime>38.79</EndTime>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="59">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassTrigger" Above="false">
+        <SourceNodePosition>6</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>686.4559</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>521.3165</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>858.5043</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>573.3719</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>634.4006</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>406.2896</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>974.6229</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>801.4829</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>790.5017</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>903.5858</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>417.2708</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="60">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>6</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>515.3027</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>628.3867</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>400.2757</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>968.609</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>784.4879</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>897.5719</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="61">
+    <Experiment ExperimentIndex="0">
+      <ScanNode>
+        <SourceNodePosition>7</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <ScanParameters>
+          <IsolationOffset>-3.00691900000004</IsolationOffset>
+        </ScanParameters>
+      </ScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="62">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>7</SourceNodePosition>
+        <MassList StartEndTime="true">
+          <MassListRecord>
+            <MOverZ>606.3794</MOverZ>
+            <Z>2</Z>
+            <StartTime>16.92</StartTime>
+            <EndTime>26.92</EndTime>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="63">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassTrigger" Above="false">
+        <SourceNodePosition>7</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>967.5728</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>854.4887</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>741.4047</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>583.3355</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>471.3541</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>629.4232</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1080.6569</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>742.5073</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>640.357</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>470.2515</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>829.5393</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>572.4018</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="64">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>7</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>961.559</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>848.4749</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>735.3908</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>577.3217</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1074.643</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>634.3432</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>464.2376</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="65">
+    <Experiment ExperimentIndex="0">
+      <ScanNode>
+        <SourceNodePosition>8</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <ScanParameters>
+          <IsolationOffset>-3.00691899999993</IsolationOffset>
+        </ScanParameters>
+      </ScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="66">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>8</SourceNodePosition>
+        <MassList StartEndTime="true">
+          <MassListRecord>
+            <MOverZ>612.8628</MOverZ>
+            <Z>2</Z>
+            <StartTime>26.03</StartTime>
+            <EndTime>36.03</EndTime>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="67">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassTrigger" Above="false">
+        <SourceNodePosition>8</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>833.5439</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>720.4598</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>576.4063</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>962.5865</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>663.4384</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>463.3223</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>649.3192</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>762.4032</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="68">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>8</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>827.5301</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>714.446</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>570.3925</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>956.5726</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>657.4245</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>457.3084</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="69">
+    <Experiment ExperimentIndex="0">
+      <ScanNode>
+        <SourceNodePosition>9</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <ScanParameters>
+          <IsolationOffset>-3.00691899999993</IsolationOffset>
+        </ScanParameters>
+      </ScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="70">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>9</SourceNodePosition>
+        <MassList StartEndTime="true">
+          <MassListRecord>
+            <MOverZ>617.8258</MOverZ>
+            <Z>2</Z>
+            <StartTime>15.72</StartTime>
+            <EndTime>25.72</EndTime>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="71">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassTrigger" Above="false">
+        <SourceNodePosition>9</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>966.4909</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>838.4323</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>739.3639</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>625.3209</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>465.2903</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>928.4305</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>496.2878</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>770.3614</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>841.3985</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="72">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>9</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>960.477</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>832.4185</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>733.35</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>459.2765</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="73">
+    <Experiment ExperimentIndex="0">
+      <ScanNode>
+        <SourceNodePosition>10</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <ScanParameters>
+          <IsolationOffset>-3.00691899999993</IsolationOffset>
+        </ScanParameters>
+      </ScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="74">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>10</SourceNodePosition>
+        <MassList StartEndTime="true">
+          <MassListRecord>
+            <MOverZ>618.8607</MOverZ>
+            <Z>2</Z>
+            <StartTime>18.17</StartTime>
+            <EndTime>28.17</EndTime>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="75">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassTrigger" Above="false">
+        <SourceNodePosition>10</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>930.5003</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>976.577</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>802.4417</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>435.2797</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>506.3169</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>662.418</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>731.4046</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>863.4929</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>776.4609</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>575.3035</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1105.6196</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="76">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>10</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>970.5631</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>429.2659</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>500.303</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>656.4041</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>857.4791</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>770.4471</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1099.6057</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="77">
+    <Experiment ExperimentIndex="0">
+      <ScanNode>
+        <SourceNodePosition>11</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <ScanParameters>
+          <IsolationOffset>-3.00691899999993</IsolationOffset>
+        </ScanParameters>
+      </ScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="78">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>11</SourceNodePosition>
+        <MassList StartEndTime="true">
+          <MassListRecord>
+            <MOverZ>622.2914</MOverZ>
+            <Z>2</Z>
+            <StartTime>33.47</StartTime>
+            <EndTime>43.47</EndTime>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="79">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassTrigger" Above="false">
+        <SourceNodePosition>11</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>931.4611</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>874.4397</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>727.3713</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1094.5245</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>517.2115</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>596.3308</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>648.252</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>719.2891</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>525.2937</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>850.3296</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="80">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>11</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>925.4473</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>868.4258</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>721.3574</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1088.5106</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>590.3169</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>519.2798</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="81">
+    <Experiment ExperimentIndex="0">
+      <ScanNode>
+        <SourceNodePosition>12</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <ScanParameters>
+          <IsolationOffset>-2.00461266666662</IsolationOffset>
+        </ScanParameters>
+      </ScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="82">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>12</SourceNodePosition>
+        <MassList StartEndTime="true">
+          <MassListRecord>
+            <MOverZ>416.2498</MOverZ>
+            <Z>3</Z>
+            <StartTime>22.74</StartTime>
+            <EndTime>32.74</EndTime>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="83">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassTrigger" Above="false">
+        <SourceNodePosition>12</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>622.3642</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>488.3191</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>430.739</MOverZ>
+            <Z>2</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>507.3373</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>625.378</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="84">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>12</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>616.3504</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>427.7321</MOverZ>
+            <Z>2</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>501.3234</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="85">
+    <Experiment ExperimentIndex="0">
+      <ScanNode>
+        <SourceNodePosition>13</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <ScanParameters>
+          <IsolationOffset>-3.00691900000004</IsolationOffset>
+        </ScanParameters>
+      </ScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="86">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>13</SourceNodePosition>
+        <MassList StartEndTime="true">
+          <MassListRecord>
+            <MOverZ>626.8966</MOverZ>
+            <Z>2</Z>
+            <StartTime>31.03</StartTime>
+            <EndTime>41.03</EndTime>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="87">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassTrigger" Above="false">
+        <SourceNodePosition>13</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>918.5407</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>847.5036</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>590.4108</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>477.3267</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>406.2896</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>776.4665</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1022.6229</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>663.3824</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1135.7069</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>746.5119</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>875.5545</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>507.2813</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="88">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>13</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>584.3969</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>471.3128</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>400.2757</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1016.609</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1129.6931</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>740.498</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>869.5406</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="89">
+    <Experiment ExperimentIndex="0">
+      <ScanNode>
+        <SourceNodePosition>14</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <ScanParameters>
+          <IsolationOffset>-3.00691899999993</IsolationOffset>
+        </ScanParameters>
+      </ScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="90">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>14</SourceNodePosition>
+        <MassList StartEndTime="true">
+          <MassListRecord>
+            <MOverZ>630.2889</MOverZ>
+            <Z>2</Z>
+            <StartTime>28.77</StartTime>
+            <EndTime>38.77</EndTime>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="91">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassTrigger" Above="false">
+        <SourceNodePosition>14</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>947.4561</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>890.4346</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>743.3662</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>517.2115</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1110.5194</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>648.252</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>719.2891</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>866.3245</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>541.2886</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>937.3616</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="92">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>14</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>941.4422</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>884.4208</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>737.3523</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1104.5056</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>606.3119</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>535.2747</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="93">
+    <Experiment ExperimentIndex="0">
+      <ScanNode>
+        <SourceNodePosition>15</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <ScanParameters>
+          <IsolationOffset>-3.00691899999993</IsolationOffset>
+        </ScanParameters>
+      </ScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="94">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>15</SourceNodePosition>
+        <MassList StartEndTime="true">
+          <MassListRecord>
+            <MOverZ>630.2889</MOverZ>
+            <Z>2</Z>
+            <StartTime>28.77</StartTime>
+            <EndTime>38.77</EndTime>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="95">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassTrigger" Above="false">
+        <SourceNodePosition>15</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>947.4561</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>890.4346</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>743.3662</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>517.2115</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1110.5194</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>596.3308</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>664.2469</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>525.2937</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>735.284</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>866.3245</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>937.3616</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="96">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>15</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>941.4422</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>884.4208</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>737.3523</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1104.5056</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>590.3169</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>519.2798</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="97">
+    <Experiment ExperimentIndex="0">
+      <ScanNode>
+        <SourceNodePosition>16</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <ScanParameters>
+          <IsolationOffset>-3.00691899999993</IsolationOffset>
+        </ScanParameters>
+      </ScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="98">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>16</SourceNodePosition>
+        <MassList StartEndTime="true">
+          <MassListRecord>
+            <MOverZ>630.2889</MOverZ>
+            <Z>2</Z>
+            <StartTime>28.77</StartTime>
+            <EndTime>38.77</EndTime>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="99">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassTrigger" Above="false">
+        <SourceNodePosition>16</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>1094.5245</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>874.4397</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>727.3713</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>533.2064</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>931.4611</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>596.3308</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>664.2469</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>525.2937</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>735.284</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>866.3245</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>937.3616</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="100">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>16</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>1088.5106</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>868.4258</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>721.3574</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>925.4473</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>590.3169</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>519.2798</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="101">
+    <Experiment ExperimentIndex="0">
+      <ScanNode>
+        <SourceNodePosition>17</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <ScanParameters>
+          <IsolationOffset>-3.00691900000004</IsolationOffset>
+        </ScanParameters>
+      </ScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="102">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>17</SourceNodePosition>
+        <MassList StartEndTime="true">
+          <MassListRecord>
+            <MOverZ>639.3721</MOverZ>
+            <Z>2</Z>
+            <StartTime>30.75</StartTime>
+            <EndTime>40.75</EndTime>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="103">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassTrigger" Above="false">
+        <SourceNodePosition>17</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>678.4268</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>815.4857</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>946.5262</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>600.3174</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>549.3842</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>463.2585</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1033.5582</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>729.36</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>436.3001</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>842.4441</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>955.5281</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1146.6423</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="104">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>17</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>672.413</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>809.4719</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>940.5124</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>543.3704</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1027.5444</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>430.2863</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1140.6284</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="105">
+    <Experiment ExperimentIndex="0">
+      <ScanNode>
+        <SourceNodePosition>18</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <ScanParameters>
+          <IsolationOffset>-3.00691900000004</IsolationOffset>
+        </ScanParameters>
+      </ScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="106">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>18</SourceNodePosition>
+        <MassList StartEndTime="true">
+          <MassListRecord>
+            <MOverZ>647.3696</MOverZ>
+            <Z>2</Z>
+            <StartTime>25.22</StartTime>
+            <EndTime>35.22</EndTime>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="107">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassTrigger" Above="false">
+        <SourceNodePosition>18</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>616.3123</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>549.3842</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>479.2534</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>815.4857</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>678.4268</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>436.3001</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>962.5211</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>745.3549</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1162.6372</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="108">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>18</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>543.3704</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>809.4719</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>672.413</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>430.2863</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>956.5073</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1156.6234</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="109">
+    <Experiment ExperimentIndex="0">
+      <ScanNode>
+        <SourceNodePosition>19</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <ScanParameters>
+          <IsolationOffset>-3.00691900000004</IsolationOffset>
+        </ScanParameters>
+      </ScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="110">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>19</SourceNodePosition>
+        <MassList StartEndTime="true">
+          <MassListRecord>
+            <MOverZ>647.8549</MOverZ>
+            <Z>2</Z>
+            <StartTime>34.13</StartTime>
+            <EndTime>44.13</EndTime>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="111">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassTrigger" Above="false">
+        <SourceNodePosition>19</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>600.3699</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>933.5177</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>786.4493</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>695.3399</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>463.311</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>509.2606</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>832.3988</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1034.5654</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1163.6079</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>931.4672</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="112">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>19</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>594.3561</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>927.5038</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>780.4354</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>457.2972</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1028.5515</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1157.5941</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="113">
+    <Experiment ExperimentIndex="0">
+      <ScanNode>
+        <SourceNodePosition>20</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <ScanParameters>
+          <IsolationOffset>-3.00691900000004</IsolationOffset>
+        </ScanParameters>
+      </ScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="114">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>20</SourceNodePosition>
+        <MassList StartEndTime="true">
+          <MassListRecord>
+            <MOverZ>656.3913</MOverZ>
+            <Z>2</Z>
+            <StartTime>32.13</StartTime>
+            <EndTime>42.13</EndTime>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="115">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassTrigger" Above="false">
+        <SourceNodePosition>20</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>996.5596</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1109.6437</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>867.517</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>704.4537</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>445.2657</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1180.6808</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>608.329</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="116">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>20</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>990.5458</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1103.6298</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>861.5032</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>698.4398</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1174.6669</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="117">
+    <Experiment ExperimentIndex="0">
+      <ScanNode>
+        <SourceNodePosition>21</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <ScanParameters>
+          <IsolationOffset>-3.00691900000004</IsolationOffset>
+        </ScanParameters>
+      </ScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="118">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>21</SourceNodePosition>
+        <MassList StartEndTime="true">
+          <MassListRecord>
+            <MOverZ>658.8775</MOverZ>
+            <Z>2</Z>
+            <StartTime>24.18</StartTime>
+            <EndTime>34.18</EndTime>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="119">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassTrigger" Above="false">
+        <SourceNodePosition>21</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>1088.6004</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>959.5578</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>846.4738</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>709.4149</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>608.3402</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>581.3563</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>968.487</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>471.2813</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>837.4465</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>736.3988</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="120">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>21</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>1082.5866</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>953.544</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>840.4599</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>703.401</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>575.3424</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="121">
+    <Experiment ExperimentIndex="0">
+      <ScanNode>
+        <SourceNodePosition>22</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <ScanParameters>
+          <IsolationOffset>-2.00461266666669</IsolationOffset>
+        </ScanParameters>
+      </ScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="122">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>22</SourceNodePosition>
+        <MassList StartEndTime="true">
+          <MassListRecord>
+            <MOverZ>442.2523</MOverZ>
+            <Z>3</Z>
+            <StartTime>15.2</StartTime>
+            <EndTime>25.2</EndTime>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="123">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassTrigger" Above="false">
+        <SourceNodePosition>22</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>548.8011</MOverZ>
+            <Z>2</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>539.3093</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>470.7506</MOverZ>
+            <Z>2</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>670.3498</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>471.7687</MOverZ>
+            <Z>2</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="124">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>22</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>545.7942</MOverZ>
+            <Z>2</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>533.2955</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>467.7436</MOverZ>
+            <Z>2</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>664.336</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="125">
+    <Experiment ExperimentIndex="0">
+      <ScanNode>
+        <SourceNodePosition>23</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <ScanParameters>
+          <IsolationOffset>-2.00461266666669</IsolationOffset>
+        </ScanParameters>
+      </ScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="126">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>23</SourceNodePosition>
+        <MassList StartEndTime="true">
+          <MassListRecord>
+            <MOverZ>442.2523</MOverZ>
+            <Z>3</Z>
+            <StartTime>15.2</StartTime>
+            <EndTime>25.2</EndTime>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="127">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassTrigger" Above="false">
+        <SourceNodePosition>23</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>523.3144</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>548.8011</MOverZ>
+            <Z>2</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>424.246</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>470.7506</MOverZ>
+            <Z>2</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>670.3498</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>479.7662</MOverZ>
+            <Z>2</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="128">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>23</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>517.3006</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>545.7942</MOverZ>
+            <Z>2</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>418.2322</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>467.7436</MOverZ>
+            <Z>2</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>664.336</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="129">
+    <Experiment ExperimentIndex="0">
+      <ScanNode>
+        <SourceNodePosition>24</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <ScanParameters>
+          <IsolationOffset>-3.00691900000004</IsolationOffset>
+        </ScanParameters>
+      </ScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="130">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>24</SourceNodePosition>
+        <MassList StartEndTime="true">
+          <MassListRecord>
+            <MOverZ>666.875</MOverZ>
+            <Z>2</Z>
+            <StartTime>29.08</StartTime>
+            <EndTime>39.08</EndTime>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="131">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassTrigger" Above="false">
+        <SourceNodePosition>24</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>1104.5953</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>975.5527</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>862.4687</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>725.4098</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>608.3402</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>597.3512</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>984.4819</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>496.3035</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>471.2813</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="132">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>24</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>1098.5815</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>969.5389</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>856.4548</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>719.3959</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>591.3373</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>490.2897</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="133">
+    <Experiment ExperimentIndex="0">
+      <ScanNode>
+        <SourceNodePosition>25</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <ScanParameters>
+          <IsolationOffset>-3.00691900000004</IsolationOffset>
+        </ScanParameters>
+      </ScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="134">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>25</SourceNodePosition>
+        <MassList StartEndTime="true">
+          <MassListRecord>
+            <MOverZ>679.8646</MOverZ>
+            <Z>2</Z>
+            <StartTime>30.29</StartTime>
+            <EndTime>40.29</EndTime>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="135">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassTrigger" Above="false">
+        <SourceNodePosition>25</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>999.5415</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1113.5844</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>836.4782</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>722.4353</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>593.3927</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>637.294</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>480.3086</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>766.3366</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>523.2511</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>879.4207</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1010.4612</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1227.6274</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="136">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>25</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>993.5277</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1107.5706</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>830.4643</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>716.4214</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>587.3788</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>474.2948</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1221.6135</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="137">
+    <Experiment ExperimentIndex="0">
+      <ScanNode>
+        <SourceNodePosition>26</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <ScanParameters>
+          <IsolationOffset>-3.00691900000004</IsolationOffset>
+        </ScanParameters>
+      </ScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="138">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>26</SourceNodePosition>
+        <MassList StartEndTime="true">
+          <MassListRecord>
+            <MOverZ>681.3324</MOverZ>
+            <Z>2</Z>
+            <StartTime>26.7</StartTime>
+            <EndTime>36.7</EndTime>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="139">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassTrigger" Above="false">
+        <SourceNodePosition>26</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>999.4952</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>868.4547</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>721.3863</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>584.3274</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>494.2101</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>778.3375</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>641.2786</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>437.259</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>925.4059</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1039.4488</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1159.5259</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1230.563</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="140">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>26</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>993.4814</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>862.4409</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>715.3725</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>578.3136</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>431.2452</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1153.512</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1224.5491</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="141">
+    <Experiment ExperimentIndex="0">
+      <ScanNode>
+        <SourceNodePosition>27</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <ScanParameters>
+          <IsolationOffset>-3.00691900000004</IsolationOffset>
+        </ScanParameters>
+      </ScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="142">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>27</SourceNodePosition>
+        <MassList StartEndTime="true">
+          <MassListRecord>
+            <MOverZ>681.3671</MOverZ>
+            <Z>2</Z>
+            <StartTime>31.97</StartTime>
+            <EndTime>41.97</EndTime>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="143">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassTrigger" Above="false">
+        <SourceNodePosition>27</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>1042.5738</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>929.4897</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>433.2445</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>743.4104</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>596.375</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>619.3239</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="144">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>27</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>1036.56</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>923.4759</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>737.3966</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>590.3612</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="145">
+    <Experiment ExperimentIndex="0">
+      <ScanNode>
+        <SourceNodePosition>28</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <ScanParameters>
+          <IsolationOffset>-3.00691900000004</IsolationOffset>
+        </ScanParameters>
+      </ScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="146">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>28</SourceNodePosition>
+        <MassList StartEndTime="true">
+          <MassListRecord>
+            <MOverZ>687.8621</MOverZ>
+            <Z>2</Z>
+            <StartTime>27.6</StartTime>
+            <EndTime>37.6</EndTime>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="147">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassTrigger" Above="false">
+        <SourceNodePosition>28</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>1015.5364</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1129.5793</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>738.4302</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>852.4731</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>637.294</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>609.3876</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>496.3035</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>523.2511</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>766.3366</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>879.4207</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1026.4561</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1243.6223</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="148">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>28</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>1009.5226</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1123.5655</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>732.4163</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>846.4593</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>603.3737</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>490.2897</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1237.6084</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="149">
+    <Experiment ExperimentIndex="0">
+      <ScanNode>
+        <SourceNodePosition>29</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <ScanParameters>
+          <IsolationOffset>-3.00691900000004</IsolationOffset>
+        </ScanParameters>
+      </ScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="150">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>29</SourceNodePosition>
+        <MassList StartEndTime="true">
+          <MassListRecord>
+            <MOverZ>689.3299</MOverZ>
+            <Z>2</Z>
+            <StartTime>22.93</StartTime>
+            <EndTime>32.93</EndTime>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="151">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassTrigger" Above="false">
+        <SourceNodePosition>29</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>721.3863</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>868.4547</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1015.4901</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>584.3274</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>510.2051</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>794.3324</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>437.259</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>941.4008</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1055.4437</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1175.5208</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="152">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>29</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>715.3725</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>862.4409</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1009.4763</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>578.3136</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>431.2452</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1169.5069</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="153">
+    <Experiment ExperimentIndex="0">
+      <ScanNode>
+        <SourceNodePosition>30</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <ScanParameters>
+          <IsolationOffset>-3.00691900000004</IsolationOffset>
+        </ScanParameters>
+      </ScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="154">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>30</SourceNodePosition>
+        <MassList StartEndTime="true">
+          <MassListRecord>
+            <MOverZ>694.3839</MOverZ>
+            <Z>2</Z>
+            <StartTime>28.03</StartTime>
+            <EndTime>38.03</EndTime>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="155">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassTrigger" Above="false">
+        <SourceNodePosition>30</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>979.5595</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>832.4911</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>409.2082</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1142.6229</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>581.3893</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>556.2766</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>434.3209</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1053.5152</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>954.4468</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>807.3784</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="156">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>30</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>973.5457</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>826.4773</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1136.609</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>575.3755</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>428.307</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="157">
+    <Experiment ExperimentIndex="0">
+      <ScanNode>
+        <SourceNodePosition>31</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <ScanParameters>
+          <IsolationOffset>-6.01383799999996</IsolationOffset>
+        </ScanParameters>
+      </ScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="158">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>31</SourceNodePosition>
+        <MassList StartEndTime="true">
+          <MassListRecord>
+            <MOverZ>753.9734</MOverZ>
+            <Z>2</Z>
+            <StartTime>30.09</StartTime>
+            <EndTime>40.09</EndTime>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="159">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassTrigger" Above="false">
+        <SourceNodePosition>31</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>567.3736</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>454.2896</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>566.4108</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1124.6943</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>793.5377</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1053.6572</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>940.5731</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>679.4948</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>941.536</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>828.452</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>714.409</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="160">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>31</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>561.3598</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>448.2757</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>560.3969</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1118.6805</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>787.5239</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1047.6434</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>934.5593</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>673.481</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>935.5222</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>822.4381</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>708.3952</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="161">
+    <Experiment ExperimentIndex="0">
+      <ScanNode>
+        <SourceNodePosition>32</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <ScanParameters>
+          <IsolationOffset>-4.00922533333339</IsolationOffset>
+        </ScanParameters>
+      </ScanNode>
+    </Experiment>
+  </Modification>
+  <Modification Order="162">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>32</SourceNodePosition>
+        <MassList StartEndTime="true">
+          <MassListRecord>
+            <MOverZ>508.6941</MOverZ>
+            <Z>3</Z>
+            <StartTime>40.98</StartTime>
+            <EndTime>50.98</EndTime>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="163">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassTrigger" Above="false">
+        <SourceNodePosition>32</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>554.9104</MOverZ>
+            <Z>2</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>588.4071</MOverZ>
+            <Z>2</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>618.9397</MOverZ>
+            <Z>2</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>632.4577</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>533.3893</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>531.8651</MOverZ>
+            <Z>2</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>462.3522</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>446.8123</MOverZ>
+            <Z>2</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>779.5333</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>892.6174</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>416.2616</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1062.7229</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>991.6858</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1175.807</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+  <Modification Order="164">
+    <Experiment ExperimentIndex="0">
+      <MassListFilter MassListType="TargetedMassInclusion" Above="true">
+        <SourceNodePosition>32</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <SourceNodePosition>0</SourceNodePosition>
+        <MassList StartEndTime="false">
+          <MassListRecord>
+            <MOverZ>548.8965</MOverZ>
+            <Z>2</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>585.4002</MOverZ>
+            <Z>2</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>612.9258</MOverZ>
+            <Z>2</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>626.4439</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>527.3755</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>528.8582</MOverZ>
+            <Z>2</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>456.3383</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>443.8054</MOverZ>
+            <Z>2</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>773.5195</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>886.6036</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1056.7091</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>985.672</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+          <MassListRecord>
+            <MOverZ>1169.7931</MOverZ>
+            <Z>1</Z>
+          </MassListRecord>
+        </MassList>
+      </MassListFilter>
+    </Experiment>
+  </Modification>
+</MethodModifications>

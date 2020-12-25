@@ -110,11 +110,11 @@ p_dox_both <- ggplot(big_df)+
     
 # Save images
 ggsave(plot = p_ut_dox,
-filename = "Fig4E_ut_dox.png",
+filename = "Fig4E_control_dox.png",
 width = 4.5, height = 6)
 
 ggsave(plot = p_ut_dtag,
-filename = "Fig4E_ut_dtag.png",
+filename = "Fig4E_control_dtag.png",
 width = 4.5, height = 6)
 
 ggsave(plot = p_dox_both,

@@ -7,10 +7,9 @@ library(wesanderson)
 `%notin%` = function(x,y) !(x %in% y)
 
 # Import sheets
-url <- "https://docs.google.com/spreadsheets/d/1XU9alAioF4Ld8cQHjpUfHZzPzUKGJvLv1AeoglNzrWw/edit#gid=489571547"
-rep_100 <- read_sheet(url,sheet="data - Toma100")
-rep_200 <- read_sheet(url,sheet="data - Toma200")
-rep_300 <- read_sheet(url,sheet="data - Toma300")
+rep_100 <- read.csv("./toma1.csv")
+rep_200 <- read.csv("./toma2.csv")
+rep_300 <- read.csv("./toma3.csv")
 
 # Combine data, clean, and smush
 toma_smush <- rbind(rep_100,rep_200,rep_300) %>% 

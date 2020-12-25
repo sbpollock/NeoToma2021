@@ -149,3 +149,39 @@ sht_TOMA <- sht2 %>%
   filter(simple!="tGFP") %>% 
   filter(Protein!="ITFHFTPV") %>% 
   filter(Protein!="ITFHFTPVL")
+
+# Make CV df
+Data <- vector()
+Concentration <- vector()
+CV <- vector()
+
+for (i in 1:nrow(sht_MS2)){
+Data <- c(Data,"untargeted")
+Concentration <- c(Concentration,sht_MS2$fmol[i])
+CV <- c(CV,sht_MS2$CV[i])
+}
+
+for (j in 1:nrow(sht_TOMA)){
+Data <- c(Data,"TOMAHAQ")
+Concentration <- c(Concentration,sht_TOMA$fmol[j])
+CV <- c(CV,sht_TOMA$CV[j])  
+}
+
+df_cv <- data.frame(Data,"Concentration"=as.factor(Concentration),CV)
+df_cv$Concentration <- fct_relevel(df_cv$Concentration,c("100","10","1","0.1","0.01","0.001"))
+df_cv$Data <- fct_relevel(df_cv$Data,c("untargeted","TOMAHAQ"))
+
+p_cv <- ggplot(df_cv,aes(x=Concentration,y=CV,color=Data))+
+geom_boxplot(outlier.alpha = 0.2,varwidth = T,notch = F)+
+scale_y_continuous(limits=c(0,75))+
+labs(x="Concentration (fmol)",y="CV %")+
+theme(
+axis.text = element_text(size=16),
+axis.title = element_text(size=14),
+legend.title = element_blank(),
+legend.text = element_text(size=14)
+)
+
+ggsave(filename="Fig3D.png",
+       plot=p_cv,
+       width = 6, height = 3)

@@ -84,3 +84,173 @@ toma_Gtf2i <- toma_corr %>%
 toma_Cpne1 <- toma_corr %>%
   filter(Protein=="Cpne1") %>% 
   melt(id.vars=1,measure.vars=2:5)
+
+# Plot 4plex abundance with bars overlaying points and median value
+p_adpgk <- ggplot(toma_adpgk,aes(x=variable,y=value,color=variable))+
+  stat_summary(fun =median, geom="col",fill=NA,size=3)+
+  theme_classic()+
+  scale_color_manual(values=c("peru","violetred1","turquoise3","darkorchid2"))+
+  scale_fill_manual(values=c("peru","violetred1","turquoise3","darkorchid2"))+
+  geom_jitter(aes(y=value,fill=variable),size=3,color="white",pch=21)+
+  stat_summary_bin(aes(label = round(..y..),color=variable),fun = "median", geom="text",position = position_nudge(y=15),size=10)+
+  labs(y="Signal",title="Adpgk")+
+  theme(legend.position = "none",
+        axis.title.x = element_blank(),
+        axis.title.y = element_text(size=22),
+        axis.text.y = element_text(size=24),
+        axis.text.x = element_text(size=24),
+        plot.title = element_text(size=32)
+        )
+  
+
+p_b2m <- ggplot(toma_b2m,aes(x=variable,y=value,color=variable))+
+  stat_summary(fun =median, geom="col",fill=NA,size=3)+
+  theme_classic()+
+  scale_color_manual(values=c("peru","violetred1","turquoise3","darkorchid2"))+
+  scale_fill_manual(values=c("peru","violetred1","turquoise3","darkorchid2"))+
+  geom_jitter(aes(y=value,fill=variable),size=3,color="white",pch=21)+
+  stat_summary_bin(aes(label = round(..y..,digits=2),color=variable),fun = "median", geom="text",position = position_nudge(y=1),size=10)+
+  labs(y="Signal",title="B2M")+
+  scale_y_continuous(limits=c(0,10))+
+  theme(legend.position = "none",
+        axis.title.x = element_blank(),
+        axis.title.y = element_text(size=22),
+        axis.text.y = element_text(size=24),
+        axis.text.x = element_text(size=24),
+        plot.title = element_text(size=32)
+        )
+
+p_tgfp <- ggplot(toma_tgfp,aes(x=variable,y=value,color=variable))+
+  stat_summary(fun =median, geom="col",fill=NA,size=3)+
+  theme_classic()+
+  scale_color_manual(values=c("peru","violetred1","turquoise3","darkorchid2"))+
+  scale_fill_manual(values=c("peru","violetred1","turquoise3","darkorchid2"))+
+  geom_jitter(aes(y=value,fill=variable),size=3,color="white",pch=21)+
+  stat_summary_bin(aes(label = round(..y..,digits=2),color=variable),fun = "median", geom="text",position = position_nudge(y=1),size=10)+
+  labs(y="Signal",title="tGFP")+
+  scale_y_continuous(limits=c(0,10))+
+  theme(legend.position = "none",
+        axis.title.x = element_blank(),
+        axis.title.y = element_text(size=22),
+        axis.text.y = element_text(size=24),
+        axis.text.x = element_text(size=24),
+        plot.title = element_text(size=32)
+        )
+
+p_Reps1 <- ggplot(toma_Reps1,aes(x=variable,y=value,color=variable))+
+  stat_summary(fun =median, geom="col",fill=NA,size=3)+
+  theme_classic()+
+  scale_color_manual(values=c("peru","violetred1","turquoise3","darkorchid2"))+
+  scale_fill_manual(values=c("peru","violetred1","turquoise3","darkorchid2"))+
+  geom_jitter(aes(y=value,fill=variable),size=3,color="white",pch=21)+
+  stat_summary_bin(aes(label = round(..y..,digits=2),color=variable),fun = "median", geom="text",position = position_nudge(y=1),size=10)+
+  labs(y="Signal",title="Reps1")+
+  scale_y_continuous(limits=c(0,10))+
+  theme(legend.position = "none",
+        axis.title.x = element_blank(),
+        axis.title.y = element_text(size=22),
+        axis.text.y = element_text(size=24),
+        axis.text.x = element_text(size=24),
+        plot.title = element_text(size=32)
+        )
+
+p_Aatf <- ggplot(toma_Aatf,aes(x=variable,y=value,color=variable))+
+  stat_summary(fun =median, geom="col",fill=NA,size=3)+
+  theme_classic()+
+  scale_color_manual(values=c("peru","violetred1","turquoise3","darkorchid2"))+
+  scale_fill_manual(values=c("peru","violetred1","turquoise3","darkorchid2"))+
+  geom_jitter(aes(y=value,fill=variable),size=3,color="white",pch=21)+
+  stat_summary_bin(aes(label = round(..y..,digits=2),color=variable),fun = "median", geom="text",position = position_nudge(y=1),size=10)+
+  labs(y="Signal",title="Aatf")+
+  scale_y_continuous(limits=c(0,10))+
+  theme(legend.position = "none",
+        axis.title.x = element_blank(),
+        axis.title.y = element_text(size=22),
+        axis.text.y = element_text(size=24),
+        axis.text.x = element_text(size=24),
+        plot.title = element_text(size=32)
+        )
+
+p_Rpl18 <- ggplot(toma_Rpl18,aes(x=variable,y=value,color=variable))+
+  stat_summary(fun =median, geom="col",fill=NA,size=3)+
+  theme_classic()+
+  scale_color_manual(values=c("peru","violetred1","turquoise3","darkorchid2"))+
+  scale_fill_manual(values=c("peru","violetred1","turquoise3","darkorchid2"))+
+  geom_jitter(aes(y=value,fill=variable),size=3,color="white",pch=21)+
+  stat_summary_bin(aes(label = round(..y..,digits=2),color=variable),fun = "median", geom="text",position = position_nudge(y=1),size=10)+
+  labs(y="Signal",title="Rpl18")+
+  scale_y_continuous(limits=c(0,10))+
+  theme(legend.position = "none",
+        axis.title.x = element_blank(),
+        axis.title.y = element_text(size=22),
+        axis.text.y = element_text(size=24),
+        axis.text.x = element_text(size=24),
+        plot.title = element_text(size=32)
+        )
+
+p_Gtf2i <- ggplot(toma_Gtf2i,aes(x=variable,y=value,color=variable))+
+  stat_summary(fun =median, geom="col",fill=NA,size=3)+
+  theme_classic()+
+  scale_color_manual(values=c("peru","violetred1","turquoise3","darkorchid2"))+
+  scale_fill_manual(values=c("peru","violetred1","turquoise3","darkorchid2"))+
+  geom_jitter(aes(y=value,fill=variable),size=3,color="white",pch=21)+
+  stat_summary_bin(aes(label = round(..y..,digits=2),color=variable),fun = "median", geom="text",position = position_nudge(y=1),size=10)+
+  labs(y="Signal",title="Gtf2i")+
+  scale_y_continuous(limits=c(0,10))+
+  theme(legend.position = "none",
+        axis.title.x = element_blank(),
+        axis.title.y = element_text(size=22),
+        axis.text.y = element_text(size=24),
+        axis.text.x = element_text(size=24),
+        plot.title = element_text(size=32)
+        )
+
+p_Cpne1 <- ggplot(toma_Cpne1,aes(x=variable,y=value,color=variable))+
+  stat_summary(fun =median, geom="col",fill=NA,size=3)+
+  theme_classic()+
+  scale_color_manual(values=c("peru","violetred1","turquoise3","darkorchid2"))+
+  scale_fill_manual(values=c("peru","violetred1","turquoise3","darkorchid2"))+
+  geom_jitter(aes(y=value,fill=variable),size=3,color="white",pch=21)+
+  stat_summary_bin(aes(label = round(..y..,digits=2),color=variable),fun = "median", geom="text",position = position_nudge(y=1),size=10)+
+  labs(y="Signal",title="Cpne1")+
+  scale_y_continuous(limits=c(0,10))+
+  theme(legend.position = "none",
+        axis.title.x = element_blank(),
+        axis.title.y = element_text(size=22),
+        axis.text.y = element_text(size=24),
+        axis.text.x = element_text(size=24),
+        plot.title = element_text(size=32)
+        )
+
+# Save images  
+ggsave(filename="Fig4D_Adpgk.png",
+       plot=p_adpgk,
+       width = 6, height = 4)
+
+ggsave(filename="Fig4D_B2M.png",
+       plot=p_b2m,
+       width = 6, height = 4)
+
+ggsave(filename="Fig4D_tGFP.png",
+       plot=p_tgfp,
+       width = 6, height = 4)
+
+ggsave(filename="Fig4D_Reps1.png",
+       plot=p_Reps1,
+       width = 6, height = 4)
+
+ggsave(filename="Fig4D_Aatf.png",
+       plot=p_Aatf,
+       width = 6, height = 4)
+
+ggsave(filename="Fig4D_Rpl18.png",
+       plot=p_Rpl18,
+       width = 6, height = 4)
+
+ggsave(filename="Fig4D_Gtf2i.png",
+       plot=p_Gtf2i,
+       width = 6, height = 4)
+
+ggsave(filename="Fig4D_Cpne1.png",
+       plot=p_Cpne1,
+       width = 6, height = 4)

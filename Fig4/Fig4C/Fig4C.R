@@ -30,7 +30,6 @@ toma_smush_lo <- toma_smush %>%
   summarize_each(list(sum)) %>% # What to do with values being smushed
   filter(UT>30)
   
-
 # Make type dataframe 
 name <- c("B2M","B2M_2","CCS","Adpgk_wt",
           "Adpgk","Adpgk_3","tGFP","tGFP_OX",
@@ -83,8 +82,6 @@ toma_smush_hi2$type <- fct_relevel(toma_smush_hi2$type,c("Previous","New"))
 toma_smush_hi2$Protein <- fct_rev(fct_reorder(toma_smush_hi2$Protein,toma_smush_hi2$UT))
 color_hi2 <- toma_smush_hi2$color
 
-
-
 # Assign a type to each protein, otherwise assign "New" for low confidence set
 type_lo <- vector()
 for (i in 1:nrow(toma_smush_lo)){
@@ -116,9 +113,7 @@ toma_smush_lo2$type <- fct_relevel(toma_smush_lo2$type,c("Previous","New"))
 toma_smush_lo2$Protein <- fct_rev(fct_reorder(toma_smush_lo2$Protein,toma_smush_lo2$UT))
 color_lo2 <- toma_smush_lo2$color
 
-
-
-# Plot overall
+# Plot
 p_smush_hi <- ggplot(toma_smush_hi2,aes(x=Protein,y=UT,fill=type))+
 geom_col()+
 labs(y="Signal",fill="Type\n(# Neoantigens)")+
@@ -143,12 +138,11 @@ theme(axis.text.x=element_text(color=color_lo2, angle = 90,size=18, hjust=1,vjus
       axis.ticks.y = element_blank(),
       legend.position = "none")
 
-# 10 for hi 4 for lo
-  
-ggsave(filename="/Volumes/RLadies/Manuscripts/2020_MCP/Figures/Fig4/Fig4C_hi.png",
+# Save images
+ggsave(filename="Fig4C_hi.png",
        plot=p_smush_hi,
        width = 10, height = 7)
 
-ggsave(filename="/Volumes/RLadies/Manuscripts/2020_MCP/Figures/Fig4/Fig4C_lo.png",
+ggsave(filename="Fig4C_lo.png",
        plot=p_smush_lo,
        width = 4, height = 6.8)

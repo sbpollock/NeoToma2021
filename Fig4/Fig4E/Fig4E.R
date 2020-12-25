@@ -1,6 +1,6 @@
 library(ggrepel)
 
-df_pep <- read.csv(file = "/Volumes/RLadies/Manuscripts/2020_MCP/Figures/Fig4/Saundra1 - id-Adpgk(m)-g in MC38 treatment to MS - data - MS2.csv", stringsAsFactors = F)
+df_pep <- read.csv("untargeted_MS2.csv", stringsAsFactors = F)
 
 # Break apart df into a list where each element is a unique protein accession
 df_pep_l <- split(df_pep,df_pep$Protein.Accession)
@@ -26,9 +26,6 @@ for (a in 1:length(dfl2)){
   }
 }
 
-# (sum(dfl2[[a]]$X.Spec)
-# (nrow(dfl2[[a]])>1)
-
 # Create clean dataframes within a new list
 abundance_list <- list()
 for (i in 1:length(dfl3)){
@@ -38,8 +35,7 @@ select(
 "ut"=Intensity.TMT6.127,
 "dox"=Intensity.TMT6.129,
 "both"=Intensity.TMT6.130,
-"dtag"=Intensity.TMT6.131) #%>% 
-#melt(id.vars=1,measure.vars=2:5)
+"dtag"=Intensity.TMT6.131)
   
 abundance_list[[i]] <- df_temp
 names(abundance_list)[i] <- names(dfl3)[i] 
@@ -58,7 +54,7 @@ big_df[c,1] <- str_split(big_df[c,1],"\\|")[[1]][3]
 big_df[c,1] <- str_split(big_df[c,1],"_")[[1]][1]
 }
 
-# UT vs. Dox abundance
+# Plot
 p_ut_dox <- ggplot(big_df)+
   geom_abline(slope=1)+
   geom_point(aes(x=ut,y=dox))+
@@ -112,13 +108,13 @@ p_dox_both <- ggplot(big_df)+
           axis.text = element_text(size=14),
   axis.text.x = element_text(angle=45))
     
-
+# Save images
 ggsave(plot = p_ut_dox,
-filename = "/Volumes/RLadies/Manuscripts/2020_MCP/Figures/Fig4/Fig4E/Fig4E_dox_2.png",
+filename = "Fig4E_ut_dox.png",
 width = 4.5, height = 6)
 
 ggsave(plot = p_ut_dtag,
-filename = "/Volumes/RLadies/Manuscripts/2020_MCP/Figures/Fig4/Fig4E/Fig4E_dtag_2.png",
+filename = "Fig4E_ut_dtag.png",
 width = 4.5, height = 6)
 
 ggsave(plot = p_dox_both,
